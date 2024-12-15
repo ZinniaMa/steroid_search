@@ -5,15 +5,15 @@ This repository provides a tool for identifying steroids from a list of small mo
 ## Criteria for Identification  
 
 The following substructure is considered defining features of steroids:  
-![substructure](https://github.com/user-attachments/assets/1c0a50d9-dda6-4960-8699-c61100668c17)
+<img src="https://github.com/user-attachments/assets/1c0a50d9-dda6-4960-8699-c61100668c17" alt="substructure" width="400">
 
 
 ## Implementation Details  
 
 We utilize the **RDKit** library to process chemical structures. The input for each compound is its SMILES string, which RDKit reads as a `mol` object. The following preprocessing steps are applied before performing the substructure search:  
 
-1. **Aromatic Ring Conversion:** Convert benzene rings to non-aromatic rings by setting all bonds to single bonds.  
+1. **Aromatic Ring Conversion:** Convert benzene rings to non-aromatic rings.  
 2. **Heteroatom Replacement:** Replace heteroatoms (N, O, S) in heterocycles with carbon atoms.  
-3. **Double Bond Conversion:** Convert double bonds to single bonds for a simplified representation.
+3. **Double Bond Conversion:** Convert double bonds to single bonds.
 
 After preprocessing, the modified `mol` object is checked for the presence of specified steroid-like substructures. The implementation details can be found in the **`checksubstructures.ipynb`** notebook.  
