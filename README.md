@@ -15,6 +15,6 @@ We utilize the **RDKit** library to process chemical structures. The input for e
 
 1. **Aromatic Ring Conversion:** Convert benzene rings to non-aromatic rings.  
 2. **Heteroatom Replacement:** Replace heteroatoms (N, O, S) in heterocycles with carbon atoms.  
-3. **Double Bond Conversion:** Convert double bonds to single bonds.
+3. **Bond Type Simplification:** All bonds are explicitly converted to single bonds.  
 
 After preprocessing, the modified `mol` object is checked for the presence of specified steroid-like substructures. The implementation details can be found in the **`checksubstructures.ipynb`** notebook.  
