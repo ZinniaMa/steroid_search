@@ -5,7 +5,7 @@ This repository provides a tool for identifying steroids from a list of small mo
 ## Criteria for Identification  
 
 The following substructure is considered defining features of steroids:  
-<img src="https://github.com/user-attachments/assets/1c0a50d9-dda6-4960-8699-c61100668c17" alt="substructure" width="400">
+<img src="https://github.com/ZinniaMa/steroid_search/blob/main/pngs/substructure.png" alt="Substructure" width="200">
 
 
 ## Implementation Details  
