@@ -20,4 +20,4 @@ We utilize the **RDKit** library to process chemical structures. The input for e
 2. **Heteroatom Replacement:** Replace heteroatoms (N, O, S) in heterocycles with carbon atoms.  
 3. **Bond Type Conversion:** Convert all bonds to single bonds.
 
-After preprocessing, the modified `mol` object is checked for the presence of specified steroid-like substructures. The implementation details can be found in the **`checksubstructures.ipynb`** (https://github.com/ZinniaMa/steroid_search/blob/main/checksubstructures.ipynb) notebook.  
+After preprocessing, the modified `mol` object is checked for the presence of specified steroid-like substructures. The implementation details can be found in the [**`checksubstructures.ipynb`**](https://github.com/ZinniaMa/steroid_search/blob/main/checksubstructures.ipynb) notebook.  
