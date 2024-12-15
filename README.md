@@ -12,6 +12,11 @@ The following substructure is considered defining features of steroids:
 <img src="https://github.com/ZinniaMa/steroid_search/blob/main/pngs/substructure.png" alt="Substructure" width="200">
 
 
+## Core Idea  
+
+Given the challenge of enumerating all possible steroid backbone structures, we simplify the target compounds by reducing them to their core features. The simplification process removes less relevant structural details, revealing the essential **four-ring structure** characteristic of steroids. This approach enables more robust and efficient substructure-based identification.  
+
+
 ## Implementation Details  
 
 We utilize the **RDKit** library to process chemical structures. The input for each compound is its SMILES string, which RDKit reads as a `mol` object. The following preprocessing steps are applied before performing the substructure search:  
